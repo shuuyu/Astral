@@ -1,2 +1,2 @@
 # ArmorTransparency
-Makes your armor transparentw
+Makes your armor transparent
