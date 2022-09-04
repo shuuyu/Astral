@@ -1,0 +1,1 @@
+package live.shuuyu.astral.command

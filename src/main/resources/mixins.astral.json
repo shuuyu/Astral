@@ -1,0 +1,8 @@
+{
+  "package": "live.shuuyu.astral.mixins",
+  "refmap": "patcher.mixins.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+
+  ]
+}

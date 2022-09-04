@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "astral",
+    "name": "Astral",
+    "description": "Customization at its finest.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://github.com/shuuyu/Astral",
+    "updateUrl": "",
+    "authorList": ["yujin"],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
