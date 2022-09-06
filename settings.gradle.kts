@@ -2,11 +2,12 @@ pluginManagement {
     repositories {
         mavenCentral()
         gradlePluginPortal()
-        maven(url = "https://maven.fabricmc.net/")
-        maven(url = "https://maven.minecraftforge.net")
-        maven(url = "https://jitpack.io")
-        maven(url = "https://maven.architectury.dev/")
-        maven(url = "https://repo.essential.gg/repository/maven-public")
+        maven("https://maven.fabricmc.net/")
+        maven("https://maven.minecraftforge.net")
+        maven("https://jitpack.io")
+        maven("https://maven.architectury.dev/")
+        maven("https://repo.essential.gg/repository/maven-public")
+        maven("https://pkgs.dev.azure.com/djtheredstoner/DevAuth/_packaging/public/maven/v1")
     }
 }
 

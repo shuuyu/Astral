@@ -11,6 +11,7 @@ plugins {
     java
 }
 
+group = "live.shuuyu"
 version = "1.0.0"
 
 quiltflower {
@@ -47,6 +48,7 @@ loom {
 repositories {
     mavenLocal()
     mavenCentral()
+    maven("https://pkgs.dev.azure.com/djtheredstoner/DevAuth/_packaging/public/maven/v1")
     maven("https://repo.essential.gg/repository/maven-public")
     maven("https://repo.essential.gg/repository/maven-releases")
     maven("https://jitpack.io")
@@ -64,7 +66,7 @@ dependencies {
     minecraft("com.mojang:minecraft:1.8.9")
     mappings("de.oceanlabs.mcp:mcp_stable:22-1.8.9")
     forge("net.minecraftforge:forge:1.8.9-11.15.1.2318-1.8.9")
-
+    modRuntimeOnly("me.djtheredstoner:DevAuth-forge-legacy:1.1.0")
     shadeMod("gg.essential:loader-launchwrapper:1.1.3")
     implementation("gg.essential:essential-1.8.9-forge:4246+g8be73312c")
     shadeMod("com.github.LlamaLad7:MixinExtras:0.0.12")

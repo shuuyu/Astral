@@ -1,5 +1,8 @@
 # Astral
-Customizability for your hud at the best.
+Stupid easy customizability with no compromises whatsoever. 
+
+The name, Astral, was picked so Mixins 0.8.5 and Kotlin 1.7.0 would load first, as well as sounding so much better than 
+other names. For context, the name was supposed to be 
 
 ## This mod uses Essential
 **What is Essential?**
