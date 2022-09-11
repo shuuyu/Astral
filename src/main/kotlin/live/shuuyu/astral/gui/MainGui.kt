@@ -1,14 +1,15 @@
 package live.shuuyu.astral.gui
 
+import gg.essential.elementa.ElementaVersion
+import gg.essential.elementa.WindowScreen
 import gg.essential.elementa.components.UIBlock
 import gg.essential.elementa.components.UIText
 import gg.essential.elementa.constraints.CenterConstraint
-import gg.essential.elementa.dsl.constrain
-import gg.essential.elementa.dsl.percent
-import gg.essential.elementa.dsl.provideDelegate
+import gg.essential.elementa.constraints.MaxConstraint
+import gg.essential.elementa.dsl.*
 
 
-class MainGui : UIBlock() {
+class MainGui : UIBlock(AstralTheme.MainMenuBackground.constraint) {
     init {
         constrain {
             x = CenterConstraint()
@@ -18,10 +19,8 @@ class MainGui : UIBlock() {
         }
     }
 
-    val title by UIText("Astral").constrain {
-        x = CenterConstraint()
-        y = CenterConstraint()
-        width = 15.percent
+    val header = UIBlock(AstralTheme.HeaderBackground.constraint).constrain {
+        width = 100.percent
         height = 20.percent
-    }
+    } childOf this
 }

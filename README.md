@@ -2,7 +2,9 @@
 Stupid easy customizability with no compromises whatsoever. 
 
 The name, Astral, was picked so Mixins 0.8.5 and Kotlin 1.7.0 would load first, as well as sounding so much better than 
-other names. For context, the name was supposed to be 
+other names. For context, the name was supposed to be spit, because I couldn't think of anything.
+
+Telemetry is disabled by default in order to follow the GDPR guidelines. 
 
 ## This mod uses Essential
 **What is Essential?**

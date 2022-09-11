@@ -29,7 +29,7 @@ public class AstralLoadingPlugin implements IFMLLoadingPlugin {
     }
 
     @Override
-    public String getAccessTransformerClass() {
+    public String getAccessTransformerClass()  {
         return null;
     }
 }
