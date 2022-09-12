@@ -1,5 +1,7 @@
 package live.shuuyu.astral
 
+import gg.essential.api.EssentialAPI
+import live.shuuyu.astral.command.AstralCommand
 import live.shuuyu.astral.gui.MainGui
 import net.minecraft.client.gui.GuiScreen
 import net.minecraftforge.common.MinecraftForge
@@ -24,6 +26,7 @@ class Astral {
     @Mod.EventHandler
     fun InitializerEvent(event: FMLInitializationEvent) {
         MinecraftForge.EVENT_BUS.register(this)
+        EssentialAPI.getCommandRegistry().registerCommand(AstralCommand)
     }
 
     @Mod.EventHandler

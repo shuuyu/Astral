@@ -7,8 +7,10 @@ import kotlinx.coroutines.launch
 
 object UpdateChecker {
     fun checkUpdate() {
-        CoroutineScope(Dispatchers.IO + CoroutineName("Astral-UpdateChecker")).launch {
+        try {
 
+        } catch (e: Exception) {
+            e.printStackTrace()
         }
     }
 }
