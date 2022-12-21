@@ -1,0 +1,5 @@
+{
+  "astral.error.config": "The config has not been initialized. Please let the owners know at ",
+
+  "astral.error.feather": "Feather client is not supported. Please either use native Fabric or Quilt in order to get support."
+}

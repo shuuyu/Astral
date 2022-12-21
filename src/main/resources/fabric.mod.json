@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "astral",
+  "name": "${name}",
+  "version": "${version}",
+  "description": "${description}",
+
+  "authors": [
+    "yujin"
+  ],
+
+  "contact": {
+    "issues": "https://github.com/shuuyu/Astral/issues",
+    "sources": "https://github.com/shuuyu/Astral"
+  },
+
+  "license": "AGPLv3",
+
+  "entrypoints": {
+
+  },
+
+  "mixins": [
+    "astral.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "minecraft": "1.19.3",
+    "java": ">=17",
+    "fabric-language-kotlin": ""
+  },
+
+  "breaks": {
+    "feather": "*"
+  }
+}
